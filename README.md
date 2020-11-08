@@ -1,5 +1,4 @@
-# BeatlesStyleChordProgressions
-Using Markov Chains to Generate Chord Progressions in the Style of The Beatles
+# Using Markov Chains to Generate Chord Progressions in the Style of The Beatles
 
 This repository contains a personal project that generates chord progressions in the style of The Beatles. It originated as a project for my undergraduate Linear Algebra course at Colorado College in 2013. 
 

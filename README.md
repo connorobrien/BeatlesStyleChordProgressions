@@ -10,7 +10,10 @@ The first file, called Chord_Scraping.py, uses dynamic web scraping to collect d
 <center><img src="https://www.hooktheory.com/images/controllers/press/TT-1.jpg"></center>
 <br>
 
-The second file, called Chord_Analysis.py, reads in a csv file of chord progression data (like the one from Chord_Scraping.py) and analyzes it so it can generate chord progressions that are in a similar style. In a general sense, this program analyzes the chord movements of chord progression from The Beatles, keeping track of what types of chord movements they typically make. For example, if they're writing in the key of C major, and they just played a F major chord, what chord would The Beatles tend to choose next? 
+
+The second file, called Chord_Analysis.py, reads in a csv file of chord progression data (like the one from Chord_Scraping.py) and analyzes it so it can generate chord progressions that are in a similar style. In a general sense, this program analyzes the chord movements of chord progression from The Beatles, keeping track of what types of chord movements they typically make. 
+
+For example, if they're writing in the key of C major, and they just played a E minor chord, what chord would The Beatles tend to choose next? 
 
 <br>
 This file keeps track of all of the typical chord movements of The Beatles a 'transition state matrix', which in layperson's terms is a table of numbers that can be used to find the probability of a next chord given a current chord. This method allows for 'chaining' of chord predictions (i.e. Markov Chains), which allows it to generate full chord progressions. As its set up right now, Chord_Scraping.py will produce ten chord progressions in the style of The Beatles in both a major and minor key. I've included an existing csv with the web-scraped chord progression data for The Beatles, named 'the_beatles_chordprogressiondata.csv'.   

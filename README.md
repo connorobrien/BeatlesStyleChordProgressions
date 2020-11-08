@@ -15,7 +15,6 @@ The second file, called Chord_Analysis.py, reads in a csv file of chord progress
 
 <br>
 This file keeps track of all of the typical chord movements of The Beatles a 'transition state matrix', which in layperson's terms is a table of numbers that can be used to find the probability of a next chord given a current chord. This method allows for 'chaining' of chord predictions (i.e. Markov Chains), which allows it to generate full chord progressions. As its set up right now, Chord_Scraping.py will produce ten chord progressions in the style of The Beatles in both a major and minor key. I've included an existing csv with the web-scraped chord progression data for The Beatles, named 'the_beatles_chordprogressiondata.csv'.   
-<br>
 
 <h3>Running This Program</h3>
 
@@ -32,8 +31,8 @@ The modules necessary to run these two files are common, many of which are defau
 <li>random</li>
 <li>requests</li>
 <li>regex</li>
-<li>selenium w/Chrome Driver</li>
-<li>time/li>
+<li>selenium with Chrome Driver</li>
+<li>time</li>
 </ul>
 
 To run Chord_Scraping.py, the only adjust you'll need to make it to set the path of your Selenium Chrome Driver as the PATH in line 12. You can also change the artist in line 10 to scrape chord progressions from other artists present in Hook Theory's Theory Tab. 

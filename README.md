@@ -2,23 +2,23 @@
 
 This repository contains a personal project for generating chord progressions in the style of The Beatles in Python. It originated as a project for my undergraduate Linear Algebra course at Colorado College in 2013. 
 
-There are two main parts of this project, each of which are separated into their own python file. 
+There are two main parts of this project, each of which are separated into their own Python file. 
 
-The first file, called Chord_Scraping.py, uses dynamic web scraping to collect data about The Beatles chord progressions from HookTheory.com's Theory Tab. Theory Tab contains over 13,000 chord progressions in an interactive, difficult to web-scrape interface. The program scrapes all available chord progressions for an artist on Hook Theory and writes a csv file with the name, key, and chord progressions for each song.  
+The first file, called Chord_Scraping.py, uses dynamic web scraping to collect data about The Beatles's chord progressions from [HookTheory.com's Theory Tab](https://www.hooktheory.com/theorytab/index). Theory Tab contains over 13,000 chord progressions in an interactive, difficult to web-scrape interface. The program scrapes all available chord progressions for an artist on Hook Theory and writes a csv file with the name, key, and chord progression for each song.  
 <br>
 <p align="center">
 <img src="https://www.hooktheory.com/images/controllers/press/TT-1.jpg"width="700">
 </p>
 <br>
 
-The second file, called Chord_Analysis.py, reads in a csv file of chord progression data (like the one from Chord_Scraping.py) and analyzes it so it can generate chord progressions that are in a similar style. In its current state, this program analyzes the chord movements of The Beatles, keeping track of what types of movements they typically make. For example, if they're writing in the key of C major, and they just played an E minor chord, what chord would The Beatles typically to choose next? The data shows they'll likely move to A minor, D minor seventh, or G major chord. 
+The second file, called Chord_Analysis.py, reads in a csv file of chord progression data (like the one from Chord_Scraping.py) and analyzes it so it can generate chord progressions that are of a similar style. In its current state, this program analyzes the chord movements of The Beatles, keeping track of what movements they typically make. For example, if they're writing in the key of C major, and they just played an E minor chord, what chord would The Beatles typically choose next? The data shows they'll likely move to an A minor, D minor seventh, or G major chord. 
 
 <p align="center">
   <img src='https://raw.githubusercontent.com/connorobrien/BeatlesStyleChordProgressions/main/Em_in_C_probabilities.png' width="700">
 </p>
 <br>
 
-This program keeps track of all of the potential chord movements of The Beatles in a 'transition state matrix', which in layperson's terms is a table of numbers that can be used to find the probability of a next chord given a current chord. This method allows for 'chaining' of chord predictions (i.e. Markov Chains), which allows it to generate full chord progressions. As its set up right now, Chord_Scraping.py will produce ten chord progressions in the style of The Beatles in both a major and minor key. I've included an existing csv with the web-scraped chord progression data for The Beatles, named 'the_beatles_chordprogressiondata.csv'.   
+This program keeps track of all potential chord movements of The Beatles in a 'transition state matrix', which in layperson's terms is a table of numbers that can be used to find the probability of a next chord given the current chord. This method allows for 'chaining' of chord predictions (i.e. Markov Chains), which allows it to generate full chord progressions from a single start chord. As its set up right now, Chord_Scraping.py will produce ten chord progressions in the style of The Beatles in both a major and minor key. I've included an existing csv with the web-scraped chord progression data for The Beatles, named 'the_beatles_chordprogressiondata.csv'.   
 
 <h3>Running This Program</h3>
 
@@ -51,7 +51,7 @@ As the program is set up currently, it outputs ten chord progressions in both a 
   <img src='https://raw.githubusercontent.com/connorobrien/BeatlesStyleChordProgressions/main/Output_Example.png' width="500">
 </p>
 
-There's a lot that goes into a Beatles-style sound, and the chord progression is just one part of it. Many of their top songs (such as Hey Jude or Paperback Writer) feature simple, traditional pop chord progressions, while others (such as Martha My Dear) feature more 'interesting' and 'colorful' chords. Generally, I'll find 2-3 chord progressions for every ten generated that work well and carry a stylistic influence of the beatles.
+There's a lot that goes into a Beatles-style song, and the chord progression is just one part of it. Many of their top songs (such as Hey Jude or Paperback Writer) feature simple, traditional pop chord progressions, while others (such as Martha My Dear) feature more 'interesting' and 'colorful' chords. Generally, I've found two to three chord progressions for every ten generated by this program work well and carry a stylistic influence of The Beatles.
 
-From the output above, I personally found the [fourth major key chord progression](https://soundcloud.com/user-756588720/major-progression-example/s-RxjecUasBww) and the [second minor key chord progression](https://soundcloud.com/user-756588720/minor-progression-example/s-p06NPTGOxi5) sounded the best. 
+From the output above, I personally found the [fourth major key chord progression](https://soundcloud.com/user-756588720/major-progression-example/s-RxjecUasBww) and the [second minor key chord progression](https://soundcloud.com/user-756588720/minor-progression-example/s-p06NPTGOxi5) sound the best. 
 

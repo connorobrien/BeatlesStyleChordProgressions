@@ -53,6 +53,5 @@ As the program is set up currently, it outputs ten chord progressions in both a 
 
 There's a lot that goes into a Beatles-style sound, and the chord progression is just one part of it. Many of their top songs (such as Hey Jude or Paperback Writer) feature simply traditional pop chord progressions, while others (such as Martha My Dear) feature more 'interesting' and 'colorful' chords. Generally, I'll find 2-3 chord progressions for every ten generated that work well and carry a stylistic influence of the beatles.
 
-From the output above, I personally found the fourth major key chord progression and the third minor key chord progression sounded the best. 
+From the output above, I personally found the [fourth major key chord progression](https://soundcloud.com/user-756588720/major-progression-example/s-RxjecUasBww) and the [second minor key chord progression](https://soundcloud.com/user-756588720/minor-progression-example/s-p06NPTGOxi5) sounded the best. 
 
-[Click here to take a listen to these chord progressions, each of which I added a "Beatles" style rhythmic movement.](soundcloud.com)

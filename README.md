@@ -48,7 +48,7 @@ To run Chord_Analysis.py, you'll need to specify the path of the csv file with c
 As the program is set up currently, it outputs ten chord progressions in both a major and minor key in the style of The Beatles. Below is an example of this output.
 
 <p align="center">
-  <img src='https://raw.githubusercontent.com/connorobrien/BeatlesStyleChordProgressions/main/Output_Example.png' width="700">
+  <img src='https://raw.githubusercontent.com/connorobrien/BeatlesStyleChordProgressions/main/Output_Example.png' width="500">
 </p>
 
 There's a lot that goes into a Beatles-style sound, and the chord progression is just one part of it. Many of their top songs (such as Hey Jude or Paperback Writer) feature simply traditional pop chord progressions, while others (such as Martha My Dear) feature more 'interesting' and 'colorful' chords. Generally, I'll find 2-3 chord progressions for every ten generated that work well and carry a stylistic influence of the beatles.

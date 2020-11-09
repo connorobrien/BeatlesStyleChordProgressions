@@ -42,3 +42,5 @@ The modules necessary to run these two files are common, many of which are defau
 To run Chord_Scraping.py, the only adjust you'll need to make it to set the path of your Selenium Chrome Driver as the PATH in line 12. You can also change the artist in line 10 to scrape chord progressions from other artists present in Hook Theory's Theory Tab. 
 
 To run Chord_Analysis.py, you'll need to specify the path of the csv file with chord progression data, such as the one included in this repository. 
+
+Some Examples

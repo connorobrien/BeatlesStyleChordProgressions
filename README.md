@@ -2,7 +2,7 @@
 
 This repository contains a personal project for generating chord progressions in the style of The Beatles in Python. It originated as a project for my undergraduate Linear Algebra course at Colorado College in 2013. 
 
-There are two main parts of this project, each of which are separated into their own Python file. 
+There are two main parts of this project, each separated into their own Python file. 
 
 The first file, called Chord_Scraping.py, uses dynamic web scraping to collect data about The Beatles's chord progressions from [HookTheory.com's Theory Tab](https://www.hooktheory.com/theorytab/index). Theory Tab contains over 13,000 chord progressions in an interactive, difficult to web-scrape interface. The program scrapes all available chord progressions for an artist on Hook Theory and writes a csv file with the name, key, and chord progression for each song.  
 <br>

@@ -29,15 +29,15 @@ The modules necessary to run these two files are common, many of which are defau
 
 <ul>
 <li>Beautiful Soup (bs4)</li>
-<li>collections</li>
-<li>csv</li>
-<li>numpy</li>
-<li>pandas</li>
-<li>random</li>
-<li>requests</li>
-<li>regex</li>
-<li>selenium with Chrome Driver</li>
-<li>time</li>
+<li>Collections</li>
+<li>CSV</li>
+<li>Numpy</li>
+<li>Pandas</li>
+<li>Random</li>
+<li>Requests</li>
+<li>Regex</li>
+<li>Selenium with Chrome Driver</li>
+<li>Time</li>
 </ul>
 
 To run Chord_Scraping.py, the only adjust you'll need to make it to set the path of your Selenium Chrome Driver as the PATH in line 12. You can also change the artist in line 10 to scrape chord progressions from other artists present in Hook Theory's Theory Tab. 

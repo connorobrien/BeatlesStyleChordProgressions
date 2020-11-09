@@ -43,10 +43,16 @@ To run Chord_Scraping.py, the only adjust you'll need to make it to set the path
 
 To run Chord_Analysis.py, you'll need to specify the path of the csv file with chord progression data, such as the one included in this repository. 
 
-Some Examples
+<h3>Some Examples</h3>
 
-<script>
-var audio = new Audio("https://raw.githubusercontent.com/connorobrien/BeatlesStyleChordProgressions/main/minor_progression_example.mp3")
-audio.play()
-</script>
+As the program is set up currently, it outputs ten chord progressions in both a major and minor key in the style of The Beatles. Below is an example of this output.
 
+<p align="center">
+  <img src='https://raw.githubusercontent.com/connorobrien/BeatlesStyleChordProgressions/main/Em_in_C_probabilities.png' width="700">
+</p>
+
+There's a lot that goes into a Beatles-style sound, and the chord progression is just one part of it. Many of their top songs (such as Hey Jude or Paperback Writer) feature simply traditional pop chord progressions, while others (such as Martha My Dear) feature more 'interesting' and 'colorful' chords. Generally, I'll find 2-3 chord progressions for every ten generated that work well and carry a stylistic influence of the beatles.
+
+From the output above, I personally found the fourth major key chord progression and the third minor key chord progression sounded the best. 
+
+[Click here to take a listen to these chord progressions, each of which I added a "Beatles" style rhythmic movement.](soundcloud.com)

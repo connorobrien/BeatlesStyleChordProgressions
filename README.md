@@ -6,8 +6,9 @@ There are two main parts of this project, each of which are separated into their
 
 The first file, called Chord_Scraping.py, uses dynamic web scraping to collect data about The Beatles chord progressions from HookTheory.com's Theory Tab. Theory Tab contains over 13,000 chord progressions in an interactive, difficult to web-scrape interface. The program writes a 'csv' file with the name, key, and chord progressions in each song from the given artist.   
 <br>
-
-<center><img src="https://www.hooktheory.com/images/controllers/press/TT-1.jpg"></center>
+<p align="center">
+<img src="https://www.hooktheory.com/images/controllers/press/TT-1.jpg"width="700">
+</p>
 <br>
 
 

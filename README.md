@@ -44,3 +44,9 @@ To run Chord_Scraping.py, the only adjust you'll need to make it to set the path
 To run Chord_Analysis.py, you'll need to specify the path of the csv file with chord progression data, such as the one included in this repository. 
 
 Some Examples
+
+<script>
+var audio = new Audio("https://raw.githubusercontent.com/connorobrien/BeatlesStyleChordProgressions/main/minor_progression_example.mp3")
+audio.play()
+</script>
+
